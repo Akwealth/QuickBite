@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 140" role="img" aria-labelledby="logo-title">
+  <title id="logo-title">QuickBite</title>
+  <g transform="translate(8 4) scale(.62)" stroke-linecap="square" stroke-linejoin="round">
+    <circle cx="110" cy="19" r="12" fill="#fff"/>
+    <path d="M34 111v-4a76 76 0 0 1 152 0v4M19 111h22m138 0h22" fill="none" stroke="#fff" stroke-width="11"/>
+    <path d="M51 132c9 34 28 54 59 78 31-24 50-44 59-78-12 13-24 20-39 23-5 13-12 20-20 20s-15-7-20-20c-15-3-27-10-39-23z" fill="#fff"/>
+    <path d="M69 143c9 28 22 41 41 57 19-16 32-29 41-57-10 8-19 12-31 14-3 9-6 13-10 13s-7-4-10-13c-12-2-21-6-31-14z" fill="#264e3f"/>
+    <path d="M89 67v69a21 21 0 0 0 42 0V67m-42 0v52m14-52v55m14-55v55m14-55v52m-21 38v21" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <text x="154" y="91" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700" letter-spacing="-1.5">QuickBite</text>
+</svg>

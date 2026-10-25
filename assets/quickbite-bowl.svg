@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 430" role="img" aria-labelledby="title desc">
+  <title id="title">A colourful QuickBite meal bowl</title>
+  <desc id="desc">Overhead illustration of rice, grilled vegetables, greens, tomato, and grilled protein in a cream bowl.</desc>
+  <defs>
+    <clipPath id="bowl"><ellipse cx="260" cy="218" rx="193" ry="168"/></clipPath>
+    <filter id="shadow" x="-.2" y="-.2" width="1.4" height="1.5"><feDropShadow dx="0" dy="20" stdDeviation="13" flood-color="#4d3920" flood-opacity=".19"/></filter>
+  </defs>
+  <g transform="rotate(-8 260 218)" filter="url(#shadow)">
+    <ellipse cx="260" cy="222" rx="202" ry="177" fill="#fffaf0"/>
+    <ellipse cx="260" cy="218" rx="193" ry="168" fill="#e9cf9f"/>
+    <g clip-path="url(#bowl)">
+      <path d="M80 173q80-68 162-30t122 8q36-31 75 2v130q-93 48-185 21T73 320z" fill="#fff7e8"/>
+      <path d="M70 250q71-57 138-20t113 9q48-25 138 15v96H70z" fill="#f4e8ce"/>
+      <g fill="#fdfaf1" stroke="#dfd4be" stroke-width="2">
+        <ellipse cx="166" cy="199" rx="23" ry="13"/><ellipse cx="205" cy="178" rx="24" ry="14"/><ellipse cx="245" cy="186" rx="23" ry="14"/><ellipse cx="287" cy="169" rx="23" ry="14"/><ellipse cx="331" cy="187" rx="23" ry="13"/><ellipse cx="363" cy="214" rx="22" ry="13"/>
+        <ellipse cx="144" cy="236" rx="22" ry="13"/><ellipse cx="189" cy="231" rx="25" ry="14"/><ellipse cx="236" cy="222" rx="23" ry="13"/><ellipse cx="286" cy="218" rx="24" ry="14"/><ellipse cx="330" cy="242" rx="25" ry="14"/><ellipse cx="371" cy="260" rx="21" ry="12"/>
+        <ellipse cx="156" cy="278" rx="22" ry="13"/><ellipse cx="201" cy="275" rx="23" ry="13"/><ellipse cx="250" cy="264" rx="23" ry="13"/><ellipse cx="294" cy="278" rx="23" ry="13"/><ellipse cx="339" cy="294" rx="24" ry="13"/>
+      </g>
+      <g fill="#397553">
+        <path d="M94 158q7-43 37-29 26 13 4 40-24 27-41 8z"/><path d="M123 139q-8-36 16-40 29-4 23 27-4 24-30 29z"/><path d="M104 130q-16-28 7-39 22-9 29 17 5 19-10 30z"/><path d="M152 146q7-35 33-28 22 7 8 31-14 22-34 11z"/><path d="M114 185q-7-33 20-37 24-3 24 24-1 28-28 30z"/>
+      </g>
+      <g stroke="#244b37" stroke-width="2" fill="none"><path d="m105 166 22-29m-5 24 19-28m-26 15-6-17m37 21 22-21m-51 50 16-29"/></g>
+      <g fill="#d85534" stroke="#f18a61" stroke-width="3"><path d="M177 110c-16 19-11 43 10 46 15 2 29-10 24-28-4-14-23-28-34-18z"/><path d="M225 118c-13 20-6 42 14 43 17 0 27-17 19-31-8-15-26-24-33-12z"/><path d="M198 157c-14 18-7 37 12 39 17 1 26-17 18-30-8-12-22-21-30-9z"/></g>
+      <g fill="#f7bf64" stroke="#de9a3f" stroke-width="2"><path d="M345 123q31-16 45 11l-34 35q-23-21-11-46z"/><path d="M367 160q29-13 41 12l-27 33q-24-15-14-45z"/><path d="M328 175q26-10 36 12l-26 27q-21-15-10-39z"/></g>
+      <g fill="#c97b42" stroke="#a45e32" stroke-width="3"><path d="M275 105q34-17 55 9l-15 45q-33 15-51-11z"/><path d="M281 169q34-16 51 11l-14 42q-36 12-50-12z"/><path d="M309 223q32-11 47 16l-19 35q-32 7-43-16z"/></g>
+      <g stroke="#f4c994" stroke-width="4" stroke-linecap="round"><path d="m280 123 37-12m-39 26 37-11m-34 48 38-12m-37 25 36-11m-25 49 30-10"/></g>
+      <g fill="#e9b548"><circle cx="133" cy="315" r="13"/><circle cx="164" cy="337" r="10"/><circle cx="115" cy="344" r="8"/><circle cx="355" cy="323" r="11"/><circle cx="383" cy="300" r="8"/></g>
+      <g fill="#699754"><path d="M132 305q-17-23 3-26 22 6 3 29z"/><path d="M357 315q-6-26 15-22 16 14-8 27z"/><path d="M160 328q-6-22 14-18 16 13-7 22z"/></g>
+    </g>
+    <ellipse cx="260" cy="218" rx="193" ry="168" fill="none" stroke="#fffaf0" stroke-width="12"/>
+  </g>
+</svg>
