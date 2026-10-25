@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Preview the QuickBite sign-up form. This front-end demo does not create accounts or store credentials.">
+  <title>Sign up | QuickBite</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header"><div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="QuickBite home"><img src="assets/quickbite-logo.svg" alt="QuickBite" width="168" height="59"></a>
+    <nav class="site-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="gallery.html">Gallery &amp; Stories</a><a class="active" aria-current="page" href="signup.html">Sign up</a><a href="login.html">Log in</a></nav>
+  </div></header>
+  <main id="main">
+    <section class="auth-shell container">
+      <div class="auth-intro"><p class="eyebrow"><span class="eyebrow-dot"></span> QUICKBITE ACCOUNT PREVIEW</p><h1>Join the <span class="accent-text">table.</span></h1><p class="page-lead">Try the sign-up form experience for the QuickBite concept.</p></div>
+      <div class="auth-card">
+        <div class="form-heading"><p class="eyebrow">SIGN UP</p><h2>Create a profile</h2></div>
+        <p class="prototype-notice" role="note">Front-end prototype only. Do not enter a real password. No account is created and no credentials are stored.</p>
+        <form class="auth-form" data-validate-form data-form-kind="signup" novalidate>
+          <div class="form-field"><label for="signup-name">Full name</label><input id="signup-name" name="name" type="text" autocomplete="name" minlength="2" maxlength="80" required data-validate aria-describedby="signup-name-error"><span class="field-error" id="signup-name-error" hidden></span></div>
+          <div class="form-field"><label for="signup-email">Email address</label><input id="signup-email" name="email" type="email" autocomplete="email" maxlength="254" required data-validate aria-describedby="signup-email-error"><span class="field-error" id="signup-email-error" hidden></span></div>
+          <div class="form-field"><label for="signup-password">Password</label><div class="password-control"><input id="signup-password" name="password" type="password" autocomplete="new-password" minlength="8" maxlength="128" required data-validate aria-describedby="signup-password-hint signup-password-error"><button class="password-toggle" type="button" data-toggle-password aria-controls="signup-password" aria-pressed="false">Show</button></div><span class="form-hint" id="signup-password-hint">Use at least 8 characters.</span><span class="field-error" id="signup-password-error" hidden></span></div>
+          <div class="form-field"><label for="signup-confirm">Confirm password</label><div class="password-control"><input id="signup-confirm" name="confirmPassword" type="password" autocomplete="new-password" required data-validate data-equals="signup-password" aria-describedby="signup-confirm-error"><button class="password-toggle" type="button" data-toggle-password aria-controls="signup-confirm" aria-pressed="false">Show</button></div><span class="field-error" id="signup-confirm-error" hidden></span></div>
+          <button class="button button-primary submit-button" type="button" data-form-trigger>Check sign-up details <span aria-hidden="true">→</span></button>
+          <p class="form-status" data-form-status role="status" aria-live="polite" tabindex="-1" hidden></p>
+        </form>
+        <p class="auth-switch">Already have a preview profile? <a href="login.html">Log in</a></p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand-column"><a class="brand brand-footer" href="index.html" aria-label="QuickBite home"><img src="assets/quickbite-logo-light.svg" alt="QuickBite" width="160" height="56"></a><p>A proposed campus food-service concept for discovering meals and making room for good company.</p></div>
+      <div class="footer-links"><h2>Explore</h2><a href="index.html">Home</a><a href="about.html">About</a><a href="gallery.html">Gallery &amp; Food Stories</a><a href="contact.html">Contact</a><a href="signup.html">Sign up</a><a href="login.html">Log in</a></div>
+      <div class="footer-contact"><h2>Collaborate</h2><a href="mailto:a.essien9639@miva.edu.ng">a.essien9639@miva.edu.ng</a><a href="tel:+2348138098453">+2348138098453</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 QuickBite · SIWES Week 5 student concept</span><span>Good food, made easy.</span></div>
+  </footer>
+  <script src="assets/form-validation.js" defer></script>
+</body>
+</html>
