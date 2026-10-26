@@ -28,16 +28,18 @@ Open [http://localhost:8000](http://localhost:8000) and use the navigation to vi
 
 The Contact, sign-up, and login forms use browser validation attributes plus inline client-side checks for required fields, email format, message length, password length, and matching confirmation. Field errors are connected to their inputs and announced to assistive technology. The password visibility controls are keyboard operable.
 
-These forms are demonstrations only. The Contact page keeps the former FormSubmit address as an inactive data attribute for reference; it has no submission action. Valid checks show a local status message only. No messages are sent, no account is created, and passwords are not saved or authenticated. Do not enter real passwords. Secure login and account creation require a real backend or authentication provider.
+The Contact form submits valid messages to FormSubmit, addressed to `a.essien9639@miva.edu.ng`. Delivery has not been independently verified, and FormSubmit may require email activation before first delivery. The form is not connected to a database.
+
+Sign-up and login remain front-end previews. A successful sign-up remembers the email address in `sessionStorage` for the current browser tab so that the same email can be used on the login page. Passwords are cleared after validation and are never saved. The login preview checks that the email was used to sign up in the current tab and validates password length; it does not verify a password, create an account, or create a session. Do not use real passwords. Real authentication requires a backend or authentication provider.
 
 ## Manual checks
 
 No test runner or third-party packages are required. With the local server running:
 
 1. Visit each page and follow every header and footer navigation link.
-2. On Contact, try empty fields, an invalid email, a message shorter than 10 characters, then valid values. Confirm errors appear by the fields and valid values show a simulation notice without sending data.
-3. On Sign up, try empty fields, an invalid email, a password shorter than 8 characters, mismatched passwords, then matching valid values. Confirm the successful check clears password fields and states that no account was created.
-4. On Log in, try missing and invalid values, then valid-format values. Confirm the page reports local validation only and clears the password.
+2. On Contact, try empty fields, an invalid email, and a message shorter than 10 characters. To test a valid delivery, use a dummy message only; confirm the recipient is `a.essien9639@miva.edu.ng` and check FormSubmit activation before expecting delivery.
+3. On Sign up, try empty fields, an invalid email, a password shorter than 8 characters, mismatched passwords, then matching valid values. Confirm the email is remembered for the current tab and the password fields are cleared.
+4. On Log in, first try an email that has not signed up in this tab, then use the email from step 3 with a valid-format password. Confirm the email check passes while the page makes clear that no real authentication occurred.
 5. Test password visibility controls with the keyboard and review the pages at narrow mobile, tablet, and desktop widths. Check the browser console for errors.
 
 ## Images
